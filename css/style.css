@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@400;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header .container{
+    width: 1400px;
+    height: 800px;
+    background-image: url(../img/Cookies-PNG-Photos.png);
+    background-repeat: no-repeat;
+    background-size: 754px 420px;
+    background-position: right bottom;
+}
+.header__logo{
+    font-family: 'Licorice', sans-serif;
+    text-align: left;
+    font-size: 60px;
+}
+.header__logo:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+.header__logo-location{
+    display: flex;
+    justify-content: space-between;
+}
+.header__location{
+    display: flex;
+    padding: 50px;
+}
+.header__location img{
+    width: 40px;
+    height: 40px;
+}
+.header__company-slogan{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 250px;
+}
+.header__company-slogan p{
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.big-slogan{
+    font-size: 90px;
+    font-weight: 700;
+}
+.big-slogan:hover{
+    background-color: black; 
+    color: white;    
+    transition-duration: 2s;                                                               
+}
+.slogan{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.medium-slogan{
+    font-size: 25px;
+    font-weight: 700;
+}
+.header__note{
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -15px;
+}
+.section-about-us__main-info{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.section-about-us__main-info img{
+    width: 500px;
+    height: 500px;
+}
+.section-about-us__we-are-info{
+    background-color: black;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.section-about-us__we-are-info img{
+    width: 90px;
+    height: 77px;
+}
+.bold-word{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-about-us__title--white, .section-special-menu__title--white, .footer__contacts-title--white, .footer__email-title--white{
+    margin-bottom: 30px;
+    text-emphasis: left;
+    padding: 20px;
+    border-left: 3px solid white  ;
+}
+.section-about-us__title--white:hover, .section-special-menu__title--white:hover, .footer__contacts-title--white:hover, .footer__email-title--white:hover{
+    border-left: 7px double white ;
+    transition-duration: 1s;
+}
+.section-about-us__message{
+    text-align: justify;
+}
+.section-best-service{
+    padding: 5px;
+}
+.section-best-service__title--black{
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 20px;
+    border-left: 3px solid black;
+}
+.section-best-service__title--black:hover{
+    border-left: 7px double black ;
+    transition-duration: 1s;
+}
+.section-best-service__info{
+    margin-top: 70px;
+    display: flex;
+}
+.section-best-service__cookie-img{
+    width: 700px;
+    height: 431px;
+}
+.section-special-menu{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: -5px;
+}
+.section-special-menu__title--white{
+    text-align: left;
+}
+.section-special-menu__main-cookies{
+    display: flex;
+}
+.cookie-item{
+    margin: 50px;
+    border: 3px solid white;
+}
+.section-special-menu__main-cookies img{
+    width: 250px;
+    height: 250px;
+    margin-top: -70px;
+}
+.section-special-menu__main-cookies img:hover{
+    rotate: 45deg;
+    transition-duration: 2s;
+}
+.section-notation__background{
+    background-position: center;
+}
+.section-notation{
+    colo
+}
